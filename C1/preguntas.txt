@@ -1,0 +1,47 @@
+##Cuál es el propósito del modificador de acceso `private` en una clase Java
+{
+=Permite que el miembro sea accesible solo dentro de la misma clase.  
+~Permite que el miembro sea accesible en todas las clases del mismo paquete.  
+~Permite que el miembro sea accesible desde cualquier otra clase, incluso de diferentes paquetes.
+}
+##Qué significa la palabra clave `extends` en Java
+{
+=Define que una clase hereda de otra clase.  
+~Indica que una clase implementa una interfaz.  
+~Especifica que una clase es una clase anónima.
+}
+##Cómo se llama el proceso de ocultar detalles de implementación y mostrar solo las funcionalidades esenciales
+{
+=Encapsulamiento.  
+~Herencia.  
+~Polimorfismo.
+}
+##Qué es la sobrecarga de métodos en Java
+~Es el proceso de redefinir un método en una subclase con un nuevo comportamiento.  
+=Es la capacidad de un método para realizar diferentes funciones dependiendo de los parámetros.  
+~Es el proceso de crear un nuevo método en una clase con el mismo nombre que otro método en una superclase.
+}
+##Cuál es el resultado de llamar al método `super()` en el constructor de una subclase
+{
+=Llama al constructor de la superclase sin parámetros.  
+~Llama al constructor de la subclase sin parámetros.  
+~Llama al método `super()` de la subclase, si está definido.
+}
+##Qué es el polimorfismo en programación orientada a objetos
+~La capacidad de una variable para tener diferentes tipos de datos.  
+=La capacidad de un objeto para tomar muchas formas, dependiendo del contexto.  
+~La capacidad de un método para ser sobrescrito en una subclase.
+}
+##Qué hace la palabra clave `interface` en Java
+~Define una clase que no puede ser instanciada.  
+=Define un contrato que las clases deben seguir implementando.   
+~Permite que una clase tenga múltiples implementaciones.
+}
+##Cuál es la diferencia principal entre una clase abstracta y una interfaz en Java
+{
+=Una clase abstracta puede contener métodos con implementación, mientras que una interfaz solo puede contener métodos abstractos.  
+~Una interfaz puede ser extendida por múltiples clases, mientras que una clase abstracta no puede.   
+~Una clase abstracta no puede ser extendida, pero una interfaz sí puede ser implementada por múltiples clases.
+}
+##En Java, una clase puede implementar múltiples interfaces pero solo puede extender una clase a la vez{T}
+##En Java, una clase puede ser declarada como final, lo que significa que no puede ser extendida por otras clases{T}
